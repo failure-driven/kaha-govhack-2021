@@ -5,7 +5,8 @@ start: check-tools
 	rackup
 
 deploy:
-	echo "TODO deploy to production"
+	HEROKU_APP_NAME=kaha-govhack-2021 \
+		bin/makefile/heroku-create
 
 # Development
 
