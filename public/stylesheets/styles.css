@@ -1,0 +1,37 @@
+
+.qr-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qr {
+  padding: 20px;
+  display: block;
+  width: 330px !important;
+  color: inherit;
+  text-decoration: none;
+  h1 {
+    width: 100%;
+    font-size: 3.2em;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+  }
+  .count {
+    width: 100%;
+    font-size: 4em;
+    text-align: right;
+    font-weight: bold;
+  }
+}
+.qr {
+  /* background: rgba(0,0,0,0.05); */
+  /* filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3)); */
+  /* box-shadow: 0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3); */
+}
+.qr-container {
+    box-sizing: content-box;
+}
