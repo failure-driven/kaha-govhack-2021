@@ -5,7 +5,7 @@ start: check-tools
 	rackup
 
 deploy:
-	HEROKU_APP_NAME=kaha-govhack-2021 \
+	HEROKU_APP_NAME=wandertrust \
 		bin/makefile/heroku-create
 
 # Development

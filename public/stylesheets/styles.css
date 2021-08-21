@@ -1,4 +1,24 @@
-
+main {
+  max-width: 600px;
+  margin: auto;
+}
+.landing {
+  background-image: url(/images/wandertrust_landing.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+.landing h1 {
+  text-indent: -9999px;
+}
+.page-1 {
+  background-image: url(/images/wandertrust_page1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.page-1 h1 {
+  text-indent: -9999px;
+}
 .qr-container {
   height: 100%;
   display: flex;
